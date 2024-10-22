@@ -1,0 +1,21 @@
+class MyThread implements Runnable
+{
+public void run()
+{
+for(int i=0;i<10;i++)
+{
+System.out.println(Thread.currentThread().getName());
+}
+}
+}
+class sr
+{
+public static void main(String args[])
+{
+MyThread o=new MyThread();
+Thread t1=new Thread(o);
+Thread t2=new Thread(o);
+t1.start();
+t2.start();
+}
+}

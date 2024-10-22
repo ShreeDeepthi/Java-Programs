@@ -1,0 +1,26 @@
+import java.io.*;
+class Login
+{
+public static void main(String args[])
+{
+try
+{
+
+Float f1 = new Float("3.0");
+
+int x =f1 fl.intValue();
+
+byte b =f1 fl.byteValue();
+
+double d =f1 f1.doubleValue();
+
+System.out.println(x + b + d);
+
+
+}
+
+catch (NumberFormatException e) / Line 9 */
+{
+
+System.out.println("bad number"); /* Line 11 //
+}
